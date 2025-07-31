@@ -1,4 +1,4 @@
-# Исходные данные
+# Импортируем модуль
 from statistics import mean
 
 purchases = [
@@ -7,7 +7,7 @@ purchases = [
     {"item": "bread", "category": "bakery", "price": 2.0, "quantity": 3},
     {"item": "banana", "category": "fruit", "price": 0.5, "quantity": 5},]
 
-#Создадим временные переменные
+# Создадим временные переменные
 stack_list = []
 stack_dict = {}
 
